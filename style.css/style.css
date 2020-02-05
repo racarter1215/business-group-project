@@ -1,8 +1,29 @@
+body {
+    background-color: white;
+}
+
 header {
-    color: red;
-    
+    background-color: red;
+    text-color: black;
+}
+
+nav {
+    color: black;
+    font-size: medium;
+    float: right;
 }
 
 article {
+    float: left;
     width: 33%;
+}
+
+#articleimage {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+p {
+    color: blue
 }
