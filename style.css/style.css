@@ -8,18 +8,16 @@ header {
     text-align: center;
 }
 
-nav {
-    color: black;
-    font-size: medium;
-    display: table-cell;
-    float: left;
-}
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
 
 article {
     display: inline-block;
     width: 33%;
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 45px 45px 45px 45px;
 }
 
 article img {
