@@ -1,1 +1,1 @@
-alert(Do you have enough money for these cars?);
+alert("Do you have enough money for these cars?");
