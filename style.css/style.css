@@ -5,28 +5,30 @@ body {
 header {
     background-color: red;
     text-color: black;
+    text-align: center;
 }
 
 nav {
     color: black;
     font-size: medium;
+    display: table-cell;
     float: left;
-}
-
-#articleimage {
-    height: 10px;
-    width: 10px;
-    margin: 10px;
 }
 
 article {
-    float: left;
-    width: 33%;
-    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    height: 200px;
 }
 
-
+article img {
+    width: 100px;
+}
 
 p {
     color: blue
+}
+
+footer {
+    background-color: blue;
 }
