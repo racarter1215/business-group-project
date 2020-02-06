@@ -1,5 +1,5 @@
 var today = new Date();
-var hourNow = today.getHours();
+var hourNow = 23;
 var greeting;
 
 if (hourNow > 18) {
@@ -12,13 +12,13 @@ if (hourNow > 18) {
 
 document.write('<h1>' + greeting + '</h1>');
 
-var greeting = prompt('What is best in life? (1 = Wrong Answer 2 = Right Answer)');
+var question = prompt('What is best in life? (1 = What would a programmer say?, 2 = What would Conan say?)');
 var reply;
 
-if (greeting = 1) {
+if (question = 1) {
     reply = 'Coding';
-} else {
+} else if (question = 2) {
     reply = 'Crush your enemies, drive them before you, and hear the lamentations of their women!';
 }
 
-document.write('<body>' + reply + '</body>');
+document.write('<h1>' + reply + '</h1>');
