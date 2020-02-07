@@ -25,7 +25,7 @@ function askConan() {
     if( question === '1') {
         text = 'Coding!';
     } else if (question === '2') {
-        text = 'Crush your enemies, drive them before you, and hear the lamentations of their women';
+        text = 'Crush your enemies, drive them before you, and hear the lamentations of their people';
     } else {
         text = 'Ur bad at stuff';
     }
