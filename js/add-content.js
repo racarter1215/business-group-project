@@ -40,7 +40,7 @@ function askQuantity() {
     
     if( question >= '1') {
         text = 'Excellent, let me draw up the paperwork';
-    } else if (question >= '5') {
+    } else if (question < '5') {
         text = 'Big spender! Would you like some champagne?';
     } else if (question = '0') {
         text = 'No credit no car!';
@@ -50,7 +50,7 @@ function askQuantity() {
 }
 // this is intended to be a while loop that keeps the textbox for cars up until a 'realistic' answer is given
 var question; 
-    while (question > '7') {
-    answer = prompt('Please do not waste my time. Give a real number');
-    }
+     while (quantity > '5') {
+    prompt('Please do not waste my time. Give a real number');
+        }
     
