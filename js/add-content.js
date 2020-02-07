@@ -37,6 +37,10 @@ function askQuantity() {
     var question = prompt('How many cars would you like?');
     console.log(typeof(question))
     var text;
+
+    while (quantity > '5') {
+     prompt('Please do not waste my time. Give a real number');
+        }
     
     if( question >= '1') {
         text = 'Excellent, let me draw up the paperwork';
@@ -49,8 +53,5 @@ function askQuantity() {
     return text;
 }
 // this is intended to be a while loop that keeps the textbox for cars up until a 'realistic' answer is given
-var question; 
-    while (quantity > '5') {
-     prompt('Please do not waste my time. Give a real number');
-        }
+
     
