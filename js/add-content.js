@@ -50,7 +50,7 @@ function askQuantity() {
 }
 // this is intended to be a while loop that keeps the textbox for cars up until a 'realistic' answer is given
 var question; 
-     while (quantity > '5') {
-    prompt('Please do not waste my time. Give a real number');
+    while (quantity > '5') {
+     prompt('Please do not waste my time. Give a real number');
         }
     
