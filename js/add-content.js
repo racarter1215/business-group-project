@@ -44,7 +44,7 @@ function askQuantity() {
     
     if( question >= '1') {
         text = 'Excellent, let me draw up the paperwork';
-    } else if (question < '5') {
+    } else if (question <= '5') {
         text = 'Big spender! Would you like some champagne?';
     } else if (question = '0') {
         text = 'No credit no car!';
