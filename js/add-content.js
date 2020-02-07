@@ -38,15 +38,16 @@ function askQuantity() {
     console.log(typeof(question))
     var text;
 
-    while (quantity > '5') {
-     prompt('Please do not waste my time. Give a real number');
-        }
+    while (isNaN(question)) { //expect data type of number
+        question = prompt('Please do not waste my time. Give a real number');
+    }
     
-    if( question >= '1') {
+        
+    if(question === '1') {
         text = 'Excellent, let me draw up the paperwork';
-    } else if (question <= '5') {
+    } else if (question > '1') {
         text = 'Big spender! Would you like some champagne?';
-    } else if (question = '0') {
+    } else if (question === '0') {
         text = 'No credit no car!';
     }
     
